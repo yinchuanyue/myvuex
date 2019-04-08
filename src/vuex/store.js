@@ -5,7 +5,7 @@ Vue.use(Vuex)
 const state = { count: 3
 }
 const mutations = {
-  add (state) { state.count++ },
+  add (state, n) { state.count += n },
   reduce (state) { state.count-- }
 
 }
